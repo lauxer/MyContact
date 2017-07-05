@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC4867091F0CC0BA0028F509 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4867081F0CC0BA0028F509 /* main.m */; };
+		DC48670C1F0CC0BA0028F509 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC48670B1F0CC0BA0028F509 /* AppDelegate.m */; };
+		DC4867121F0CC0BA0028F509 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4867101F0CC0BA0028F509 /* Main.storyboard */; };
+		DC4867171F0CC0BA0028F509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4867161F0CC0BA0028F509 /* Assets.xcassets */; };
+		DC48671A1F0CC0BA0028F509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4867181F0CC0BA0028F509 /* LaunchScreen.storyboard */; };
+		DC48674A1F0CC2730028F509 /* ContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4867491F0CC2730028F509 /* ContactListViewController.m */; };
+		DC4867511F0CC4080028F509 /* SearchContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4867501F0CC4080028F509 /* SearchContactViewController.m */; };
+		DC4867541F0CC41F0028F509 /* CreditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4867531F0CC41F0028F509 /* CreditViewController.m */; };
+		DC4867581F0CC6CB0028F509 /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4867571F0CC6CB0028F509 /* APIManager.m */; };
+		DC4867631F0CC8C70028F509 /* ContactCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4867621F0CC8C70028F509 /* ContactCollectionViewCell.m */; };
+		DC4867661F0CD1BD0028F509 /* ContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4867651F0CD1BD0028F509 /* ContactDetailViewController.m */; };
+		DC4867781F0CEC220028F509 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4867771F0CEC220028F509 /* Contact.m */; };
+		DC48677B1F0CEEFE0028F509 /* ContactManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC48677A1F0CEEFE0028F509 /* ContactManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC4867041F0CC0BA0028F509 /* MyContact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyContact.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4867081F0CC0BA0028F509 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC48670A1F0CC0BA0028F509 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC48670B1F0CC0BA0028F509 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC4867111F0CC0BA0028F509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC4867161F0CC0BA0028F509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC4867191F0CC0BA0028F509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC48671B1F0CC0BA0028F509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC4867481F0CC2730028F509 /* ContactListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactListViewController.h; path = ViewController/ContactListViewController.h; sourceTree = "<group>"; };
+		DC4867491F0CC2730028F509 /* ContactListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactListViewController.m; path = ViewController/ContactListViewController.m; sourceTree = "<group>"; };
+		DC48674F1F0CC4080028F509 /* SearchContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchContactViewController.h; path = ViewController/SearchContactViewController.h; sourceTree = "<group>"; };
+		DC4867501F0CC4080028F509 /* SearchContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchContactViewController.m; path = ViewController/SearchContactViewController.m; sourceTree = "<group>"; };
+		DC4867521F0CC41F0028F509 /* CreditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreditViewController.h; path = ViewController/CreditViewController.h; sourceTree = "<group>"; };
+		DC4867531F0CC41F0028F509 /* CreditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreditViewController.m; path = ViewController/CreditViewController.m; sourceTree = "<group>"; };
+		DC4867561F0CC6CB0028F509 /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIManager.h; path = Manager/APIManager.h; sourceTree = "<group>"; };
+		DC4867571F0CC6CB0028F509 /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APIManager.m; path = Manager/APIManager.m; sourceTree = "<group>"; };
+		DC4867611F0CC8C70028F509 /* ContactCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactCollectionViewCell.h; path = View/Cell/ContactCollectionViewCell.h; sourceTree = "<group>"; };
+		DC4867621F0CC8C70028F509 /* ContactCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactCollectionViewCell.m; path = View/Cell/ContactCollectionViewCell.m; sourceTree = "<group>"; };
+		DC4867641F0CD1BD0028F509 /* ContactDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactDetailViewController.h; path = ViewController/ContactDetailViewController.h; sourceTree = "<group>"; };
+		DC4867651F0CD1BD0028F509 /* ContactDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactDetailViewController.m; path = ViewController/ContactDetailViewController.m; sourceTree = "<group>"; };
+		DC4867761F0CEC220028F509 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Contact.h; path = Entity/Contact.h; sourceTree = "<group>"; };
+		DC4867771F0CEC220028F509 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Contact.m; path = Entity/Contact.m; sourceTree = "<group>"; };
+		DC4867791F0CEEFE0028F509 /* ContactManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactManager.h; path = Manager/ContactManager.h; sourceTree = "<group>"; };
+		DC48677A1F0CEEFE0028F509 /* ContactManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactManager.m; path = Manager/ContactManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC4867011F0CC0BA0028F509 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC4866FB1F0CC0BA0028F509 = {
+			isa = PBXGroup;
+			children = (
+				DC4867061F0CC0BA0028F509 /* MyContact */,
+				DC4867051F0CC0BA0028F509 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC4867051F0CC0BA0028F509 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC4867041F0CC0BA0028F509 /* MyContact.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC4867061F0CC0BA0028F509 /* MyContact */ = {
+			isa = PBXGroup;
+			children = (
+				DC4867551F0CC68F0028F509 /* Manager */,
+				DC4867471F0CC2050028F509 /* ViewController */,
+				DC48675C1F0CC8730028F509 /* View */,
+				DC4867671F0CE34D0028F509 /* Contact */,
+				DC48670A1F0CC0BA0028F509 /* AppDelegate.h */,
+				DC48670B1F0CC0BA0028F509 /* AppDelegate.m */,
+				DC4867101F0CC0BA0028F509 /* Main.storyboard */,
+				DC4867161F0CC0BA0028F509 /* Assets.xcassets */,
+				DC4867181F0CC0BA0028F509 /* LaunchScreen.storyboard */,
+				DC48671B1F0CC0BA0028F509 /* Info.plist */,
+				DC4867071F0CC0BA0028F509 /* Supporting Files */,
+			);
+			path = MyContact;
+			sourceTree = "<group>";
+		};
+		DC4867071F0CC0BA0028F509 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC4867081F0CC0BA0028F509 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC4867471F0CC2050028F509 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DC4867481F0CC2730028F509 /* ContactListViewController.h */,
+				DC4867491F0CC2730028F509 /* ContactListViewController.m */,
+				DC48674F1F0CC4080028F509 /* SearchContactViewController.h */,
+				DC4867501F0CC4080028F509 /* SearchContactViewController.m */,
+				DC4867521F0CC41F0028F509 /* CreditViewController.h */,
+				DC4867531F0CC41F0028F509 /* CreditViewController.m */,
+				DC4867641F0CD1BD0028F509 /* ContactDetailViewController.h */,
+				DC4867651F0CD1BD0028F509 /* ContactDetailViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		DC4867551F0CC68F0028F509 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				DC4867561F0CC6CB0028F509 /* APIManager.h */,
+				DC4867571F0CC6CB0028F509 /* APIManager.m */,
+				DC4867791F0CEEFE0028F509 /* ContactManager.h */,
+				DC48677A1F0CEEFE0028F509 /* ContactManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		DC48675C1F0CC8730028F509 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC4867601F0CC8AA0028F509 /* Cell */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DC4867601F0CC8AA0028F509 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DC4867611F0CC8C70028F509 /* ContactCollectionViewCell.h */,
+				DC4867621F0CC8C70028F509 /* ContactCollectionViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		DC4867671F0CE34D0028F509 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				DC4867761F0CEC220028F509 /* Contact.h */,
+				DC4867771F0CEC220028F509 /* Contact.m */,
+			);
+			name = Contact;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC4867031F0CC0BA0028F509 /* MyContact */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC48671E1F0CC0BA0028F509 /* Build configuration list for PBXNativeTarget "MyContact" */;
+			buildPhases = (
+				DC4867001F0CC0BA0028F509 /* Sources */,
+				DC4867011F0CC0BA0028F509 /* Frameworks */,
+				DC4867021F0CC0BA0028F509 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyContact;
+			productName = MyContact;
+			productReference = DC4867041F0CC0BA0028F509 /* MyContact.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC4866FC1F0CC0BA0028F509 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Cyril Lauxerrois";
+				TargetAttributes = {
+					DC4867031F0CC0BA0028F509 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DC4866FF1F0CC0BA0028F509 /* Build configuration list for PBXProject "MyContact" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC4866FB1F0CC0BA0028F509;
+			productRefGroup = DC4867051F0CC0BA0028F509 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC4867031F0CC0BA0028F509 /* MyContact */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC4867021F0CC0BA0028F509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC48671A1F0CC0BA0028F509 /* LaunchScreen.storyboard in Resources */,
+				DC4867171F0CC0BA0028F509 /* Assets.xcassets in Resources */,
+				DC4867121F0CC0BA0028F509 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC4867001F0CC0BA0028F509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC48677B1F0CEEFE0028F509 /* ContactManager.m in Sources */,
+				DC48674A1F0CC2730028F509 /* ContactListViewController.m in Sources */,
+				DC4867541F0CC41F0028F509 /* CreditViewController.m in Sources */,
+				DC4867511F0CC4080028F509 /* SearchContactViewController.m in Sources */,
+				DC4867661F0CD1BD0028F509 /* ContactDetailViewController.m in Sources */,
+				DC4867581F0CC6CB0028F509 /* APIManager.m in Sources */,
+				DC4867631F0CC8C70028F509 /* ContactCollectionViewCell.m in Sources */,
+				DC48670C1F0CC0BA0028F509 /* AppDelegate.m in Sources */,
+				DC4867781F0CEC220028F509 /* Contact.m in Sources */,
+				DC4867091F0CC0BA0028F509 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC4867101F0CC0BA0028F509 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4867111F0CC0BA0028F509 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC4867181F0CC0BA0028F509 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4867191F0CC0BA0028F509 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC48671C1F0CC0BA0028F509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC48671D1F0CC0BA0028F509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC48671F1F0CC0BA0028F509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyContact/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = contacts.MyContact;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC4867201F0CC0BA0028F509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyContact/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = contacts.MyContact;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC4866FF1F0CC0BA0028F509 /* Build configuration list for PBXProject "MyContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC48671C1F0CC0BA0028F509 /* Debug */,
+				DC48671D1F0CC0BA0028F509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC48671E1F0CC0BA0028F509 /* Build configuration list for PBXNativeTarget "MyContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC48671F1F0CC0BA0028F509 /* Debug */,
+				DC4867201F0CC0BA0028F509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC4866FC1F0CC0BA0028F509 /* Project object */;
+}
